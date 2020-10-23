@@ -25,3 +25,9 @@
 -- AND percentage = 100;
 
 -- SELECT * FROM country WHERE code = 'SMR';
+
+------- A city in San Marino (SMR) that isn't named San Marino
+SELECT name, countrycode
+FROM city
+WHERE countrycode = 'SMR'
+AND name <> 'San Marino';
