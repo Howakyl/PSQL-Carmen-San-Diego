@@ -33,6 +33,12 @@
 -- AND name <> 'San Marino';
 
 ------- A city in south america name is LIKE Serravalle, but doesn't end the same
-SELECT *
-FROM city
-WHERE name LIKE 'Serra%';
+-- SELECT *
+-- FROM city
+-- WHERE name LIKE 'Serra%';
+
+----countrycode BRA - look up the country's capital
+-- SELECT * 
+-- FROM country
+-- WHERE code = 'BRA';
+-- CAPITAL is 211
