@@ -23,6 +23,13 @@
 -- to a different country, a country where people speak only the language she was learning. Find out which
 --  nearby country speaks nothing but that language.
 
+--- Answer ---
+-- SELECT region, name, code
+-- FROM countrylanguage , country
+-- WHERE language = 'Italian'
+-- AND countrycode = code
+-- AND region = 'Southern Europe'
+-- AND percentage = 100;
 
 
 -- Clue #4: We're booking the first flight out – maybe we've actually got a chance to catch her this time.
