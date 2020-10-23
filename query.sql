@@ -27,7 +27,12 @@
 -- SELECT * FROM country WHERE code = 'SMR';
 
 ------- A city in San Marino (SMR) that isn't named San Marino
-SELECT name, countrycode
+-- SELECT name, countrycode
+-- FROM city
+-- WHERE countrycode = 'SMR'
+-- AND name <> 'San Marino';
+
+------- A city in south america name is LIKE Serravalle, but doesn't end the same
+SELECT *
 FROM city
-WHERE countrycode = 'SMR'
-AND name <> 'San Marino';
+WHERE name LIKE 'Serra%';
