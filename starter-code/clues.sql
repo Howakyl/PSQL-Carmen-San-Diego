@@ -67,7 +67,12 @@
  -- the boarding gates. We have one chance to catch her, we just have to know where she's heading and beat her to the
  -- landing dock.
 
-
+--- Answer --- 
+-- SELECT *
+-- FROM city
+-- WHERE id = 211;
+----Brasilia, Brazil
+-------------------------
 
 -- Clue #8: Lucky for us, she's getting cocky. She left us a note, and I'm sure she thinks she's very clever, but
 -- if we can crack it, we can finally put her where she belongs – behind bars.
@@ -82,6 +87,10 @@
 
 -- We're counting on you, gumshoe. Find out where she's headed, send us the info, and we'll be sure to meet her at the gates with bells on.
 
+--- Answer --- 
 
+-- SELECT * 
+-- FROM city
+-- WHERE population = 91084;
 
--- She's in ______________________!
+-- She's in Santa Monica!!

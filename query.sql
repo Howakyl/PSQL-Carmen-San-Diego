@@ -42,3 +42,13 @@
 -- FROM country
 -- WHERE code = 'BRA';
 -- CAPITAL is 211
+
+-- SELECT *
+-- FROM city
+-- WHERE id = 211;
+
+
+-- IN A CITY OF 91, 084
+-- SELECT * 
+-- FROM city
+-- WHERE population = 91084;
